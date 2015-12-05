@@ -12,6 +12,7 @@
 		9E7F0FCB1C12CCA6007C4FB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E7F0FC91C12CCA6007C4FB5 /* Main.storyboard */; };
 		9E7F0FCD1C12CCA6007C4FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7F0FCC1C12CCA6007C4FB5 /* Assets.xcassets */; };
 		9E7F0FD01C12CCA6007C4FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E7F0FCE1C12CCA6007C4FB5 /* LaunchScreen.storyboard */; };
+		9EC259501C12EDC7002E4E07 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9EC2594F1C12EDC7002E4E07 /* pokemon.csv */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9E7F0FCC1C12CCA6007C4FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E7F0FCF1C12CCA6007C4FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E7F0FD11C12CCA6007C4FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC2594F1C12EDC7002E4E07 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				9E7F0FC51C12CCA6007C4FB5 /* AppDelegate.swift */,
 				9E7F0FC71C12CCA6007C4FB5 /* ViewController.swift */,
+				9EC2594F1C12EDC7002E4E07 /* pokemon.csv */,
 				9E7F0FC91C12CCA6007C4FB5 /* Main.storyboard */,
 				9E7F0FCC1C12CCA6007C4FB5 /* Assets.xcassets */,
 				9E7F0FCE1C12CCA6007C4FB5 /* LaunchScreen.storyboard */,
@@ -123,6 +126,7 @@
 			files = (
 				9E7F0FD01C12CCA6007C4FB5 /* LaunchScreen.storyboard in Resources */,
 				9E7F0FCD1C12CCA6007C4FB5 /* Assets.xcassets in Resources */,
+				9EC259501C12EDC7002E4E07 /* pokemon.csv in Resources */,
 				9E7F0FCB1C12CCA6007C4FB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 				9E7F0FD61C12CCA6007C4FB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
